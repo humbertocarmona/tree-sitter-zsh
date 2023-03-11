@@ -1,0 +1,12 @@
+=============================
+Literal words
+=============================
+
+echo a
+echo a b
+
+---
+
+(program
+  (command (command_name (word)) (word))
+  (command (command_name (word)) (word) (word)))
